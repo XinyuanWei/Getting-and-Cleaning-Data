@@ -21,15 +21,15 @@ downloaded from `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2F
 
 ##`run_analysis.R`
 * 1. Merges the training and the test sets to create one data set.<br />
-  Functions used:`read.table()` and `rbind()`.
+  Functions used:`read.table()` and `rbind()`.<br />
   To merge train data together and test data together.
 * 2. Extracts only the measurements on the mean and standard deviation for each measurement. <br />
-  Functions used:`read.table()` and `grep().`
+  Functions used:`read.table()` and `grep().`<br />
   To extract the measurements on the mean and standard deviation for each measurement, then assign them the correct names from features.txt
 * 3. Uses descriptive activity names to name the activities in the data set<br />
-  Functions used:`read.table()`
+  Functions used:`read.table()`<br />
   To assign activity labels to activity data.
 * 4  Appropriately labels the data set with descriptive variable names. <br />
- Functions used:`cbind()`
+ Functions used:`cbind()`<br />
 * 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.<br />
-  Functions used:`ddply()`
+  Functions used:`ddply()`<br />
