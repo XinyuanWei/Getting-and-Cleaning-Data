@@ -1,7 +1,7 @@
 #CodeBook
 ##Variables
-* /X_train/--data read from X_train.txt
-* *y_train*--data read from y_train.txt
+* ·X_train·--data read from X_train.txt
+* y_train--data read from y_train.txt
 * subject_train--data read from subject_train.txt
 * X_test--data read from X_test.txt
 * y_test--data read from y_test.txt
